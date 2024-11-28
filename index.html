@@ -1,23 +1,10 @@
 <!DOCTYPE html>
-
-<html>
-<head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="styles/style.css"/>
-  <title>Hello, World!</title>
-</head>
-<body>
-  <h1>
-    Hello, World!
-  </h1>
-</body>
-</html>DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/general.css">
-    <link rel="stylesheet" href="/form.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="form.css">
 
 
     <title>User Dashboard</title>
@@ -28,7 +15,7 @@
         <nav>
             <a href="/">Home</a>
             <!-- Show logout button -->
-            <form action="/logout" method="POST">
+            <form action="/logout" method="POST"><br>
                 <button type="submit">Logout</button>
             </form>
     
@@ -152,7 +139,7 @@
         <section class="outCOn">
             <div class="innerCon">
                 <ul>
-                    <% tasks.forEach(task => { %> <!-- Loop through each task -->
+                  <!--  <% tasks.forEach(task => { %>  Loop through each task -->
                         <li>
                             <strong><%= task.taskName %></strong> - <%= task.taskDescription %> 
                             (<%= task.taskStatus %>)
@@ -187,7 +174,7 @@
                         </li>
                     <% }) %>
                 </ul>
-            </div>
+            </div> -->
         </section>
 
 
